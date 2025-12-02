@@ -14,10 +14,15 @@ Analysis of the Northwind Traders database to uncover insights about sales perfo
 3. [Question 3]
 ...
 
-## Key Findings
-- [Finding 1 - you'll add this after analysis]
-- [Finding 2]
-- [Finding 3]
+## Data Quality Findings
+
+During analysis, I identified the following data quality issues:
+
+### Missing Geographic Data
+- **Issue:** 2 customer records (out of 91 total) have NULL country values
+- **Impact:** These customers cannot be included in geographic analysis
+- **Resolution:** Excluded from geographic visualizations; documented for stakeholder awareness
+- **Recommendation:** Implement data validation rules to prevent future NULL country entries
 
 ## Files in this Project
 - `SQL/` - Contains all SQL queries used for analysis
