@@ -1,0 +1,4 @@
+"ShipperName","TotalOrders","AvgDaysToShip","FastestShipment","SlowestShipment","DelayedOrders"
+United Package,5475,7.8,0.00258101848885417,37.0,2359
+Federal Shipping,5455,7.8,0.000451389234513,35.0,2388
+Speedy Express,5331,7.9,0.0013194442726671696,37.0,2377
